@@ -1,0 +1,2682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Carpe Diem'17</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="background-color:#333; padding: 10px 0px 10px 0px;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars">&nbsp;</i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Carpe Diem'17</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#page-top">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Stats</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Events</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="#register">Register</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#sponsors">Sponsors</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+     <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">&nbsp;</div>
+                <div class="intro-heading">&nbsp;</div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Section -->
+    <section id="services">
+        <div class="container" id="stats">
+            
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Stats</h2>
+                    <br>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x" style="background-color:#fed136; border-radius:50%; height:240px; width:240px;position:relative;">
+                            <span id="event-countup" style="position:absolute;top:60px; left:80px;"></span>
+                    </span>
+                    <h4 class="service-heading">Events</h4>
+                    <p class="text-muted"></p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x" style="background-color:#fed136; border-radius:50%; height:240px; width:240px;position:relative;">
+                        <span id="footfall-countup" style="position:absolute;top:60px; left:30px;"></span>
+                    </span>
+                    <h4 class="service-heading">Footfalls</h4>
+                    <p class="text-muted"></p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x" style="background-color:#fed136; border-radius:50%; height:240px; width:240px;position:relative;">
+                        <span id="social-countup" style="position:absolute;top:60px; left:8px;"></span>
+                    </span>
+                    <h4 class="service-heading">Social Reach</h4>
+                    <p class="text-muted"></p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <script src="js/countup.js"></script>
+        <script type="text/javascript">
+        function counting(){
+            var options = {
+                              useEasing : true, 
+                              useGrouping : true, 
+                              separator : ',', 
+                              decimal : '.', 
+                              prefix : '', 
+                              suffix : '+' 
+                            };
+
+            var first = new CountUp("event-countup", 0, 32, 0, 4, options);
+            first.start();
+            var second = new CountUp("footfall-countup", 0, 3000, 0, 4, options);
+            second.start();
+            var third = new CountUp("social-countup", 0, 100000, 0, 4, options);
+            third.start();  
+        }
+    </script>
+    
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Events</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/LSRW.jpg" class="img-responsive" alt="LSRW">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>LSRW</h4>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Smart%20cracks.jpg" class="img-responsive" alt="Smart Cracks img">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Smart Cracks</h4>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Online.jpg" class="img-responsive" alt="Online Events">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Online Events</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/informals.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Informals</h4>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/fine%20arts.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Fine arts</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/flagship.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Flagship events</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Sports.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Games and Sports</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/events/Workshop%20(1).jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Workshops</h4>
+                    </div>
+                </div>    
+            </div>
+               
+            </div>
+        
+    </section>
+    
+    
+    <!-- Register section-->
+    <section id="register">
+        <div class="container">
+            <div class="row">
+                <center>
+                <div class="panel pink col-md-6">
+                    <button id="34" onclick="reply(this)"><h1>Register Now</h1></button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript>
+                <p class="text-muted"><i>Register for more than 5 events online and get 20% off</i></p>
+                </div>
+                    <div class="panel pink col-md-6">
+                    <button id="25" href = "#night" onclick="reply(this)"><h1>Buy Passes Now</h1></button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript>
+                <p class="text-muted">
+                        </p></div>
+                </center>
+            </div>
+        </div>
+    
+    
+    </section>
+    
+    <!-- Team Section -->
+    <!--Sponsors section -->
+    <section id="sponsors" class="bg-light-gray">
+        <div class="container">
+             <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Sponsors</h2>
+                    <h3 class="section-subheading text-muted">Supporters of our journey.</h3>
+                </div>
+            </div>
+            <div class="row" style="margin-top:5%">
+                <div class="col-md-4 col-sm-4 portfolio-item">
+                     <div class="sponsor_container">
+                        <div class="image_container"><img src="img/events/Endeavour.jpg"  class="img-responsive" height="100%" width="100%"></div>
+                        
+                    </div>
+                     <div style="text-align:center" ><h3>Educational Partner</h3></div>
+                </div>
+                 <div class="col-md-4 col-sm-4 portfolio-item">
+                     <div class="sponsor_container">
+                        <div class="image_container"><img src="img/events/Final%20CashBasket%20Logo.jpg"  class="img-responsive" height="100%" width="100%"></div>
+                        
+                    </div>
+                     <div style="text-align:center" ><h3>Coupon Partner</h3></div>
+                </div>
+                <div class="col-md-4 col-sm-4 portfolio-item">
+                     <div class="sponsor_container">
+                        <div class="image_container"><img src="img/events/logo.png"  class="img-responsive" height="100%" width="100%"></div>
+                        
+                    </div>
+                     <div style="text-align:center" ><h3>Print Partner</h3></div>
+                </div>
+            </div>
+                
+                <div class="row"  style="margin-top:5%">
+                    
+                    <div class="col-md-4 col-sm-4 portfolio-item">
+                     <div class="sponsor_container">
+                        <div class="image_container"><img src="img/events/unnamed.png"  class="img-responsive" height="100%" width="100%"></div>
+                        
+                    </div>
+                     <div style="text-align:center" ><h3></h3></div>
+                </div>
+                 <div class="col-md-4 col-sm-4 portfolio-item">
+                     <div class="sponsor_container">
+                        <div class="image_container"><img src="img/events/rdc%20logo.png"  class="img-responsive" height="100%" width="100%"></div>
+                        
+                    </div>
+                     <div style="text-align:center" ><h3>Dance Partner</h3></div>
+                </div>
+                    <div class="col-md-4 col-sm-4 portfolio-item">
+                     <div class="sponsor_container">
+                        <div class="image_container"><img src="img/events/pixelmaze_-logo--1-.jpg"  class="img-responsive" height="100%" width="100%"></div>
+                        
+                    </div>
+                     <div style="text-align:center" ><h3>Photography Partner</h3></div>
+                </div>
+            
+        </div>
+        </div>        
+    </section>
+    
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <center><h3>Partners</h3></center>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/sponsor/final_logo_CC.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/sponsor/images%20(7).png" class="img-responsive img-centered" alt="" style="padding-top:30px;">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/sponsor/unnamed%20(4).png" class="img-responsive img-centered" alt="" style="padding-top:50px;">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/sponsor/unnamed--5-%20(1).png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Augen IL<sup>2</sup> 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/il2augenclub/"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/augen_il2_nirma"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>LSRW</h2>
+                                <p class="item-intro text-muted">Literature related events.</p>
+                               
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 ">
+                                    <a id="1" href="#thecontroversy"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/the%20controversy.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                       </div>
+                                    </a>  
+                                    <h4>The Controversy</h4>
+                                </div>
+                                
+                                <div class="col-md-6 col-sm-6 ">
+                                    <a id="2" href="#spintheyarn"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Spin%20the%20yarn.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                        </div>
+                                    </a>  
+                                    <h4>Spin the Yarn</h4>
+                                </div>
+                                
+                                <div class="col-md-6 col-sm-6 ">
+                                    <a id="3" href="#dramaticreading"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Dramatic%20Reading.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                       </div>
+                                    </a>  
+                                    <h4>Dramatic Reading</h4>
+                                </div>
+                                
+                                
+                                <div class="col-md-6 col-sm-6 ">
+                                    <a id="4" href="#jam"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Just%20a%20minute.jpg"  class="img-responsive" >
+                                        </div>
+                                    </div>
+                                    </a>  
+                                    <h4>Just A Minute</h4>          
+                            </div>
+                                
+                            </div>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>    
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Smart Cracks</h2>
+                                <p class="item-intro text-muted">Quizes</p>
+                               
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 ">
+                                    <a id="5" href="#throwback"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/90S%20THROWBACK.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                    </div>
+                                    </a>  
+                                    <h4>Throwback to 90's</h4>
+                                </div>
+                                
+                                <div class="col-md-6 col-sm-6">
+                                    <a id="6" href="#clash"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container">
+                                        <div class="image_container"><img src="img/events/clash%20of%20the%20heroes.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                    </div>
+                                    </a>  
+                                    <h4>Clash of Heroe's</h4>
+                                </div>
+                                
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="7" href="#binge"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Binge%20watchers.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                       </div>
+                                    </a>  
+                                    <h4>Binge Watcher's</h4>
+                                </div>
+                            
+                                
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="8" href="#mad"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Mad%20Ads.jpg"  class="img-responsive" >
+                                        </div>
+                                        </div>
+                                    </a>  
+                                    <h4>Mad-Ads</h4>
+                                </div>
+                                 
+                                  <div class="col-md-4 col-sm-12 ">
+                                    <a id="9" href="#brain"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Brain%20Tease.jpg"  class="img-responsive" >
+                                        </div>
+                                        </div>
+                                    </a>  
+                                    <h4>Brain-Tease</h4>
+                                </div>
+                               </div>
+                               
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                              <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Online Events</h2>
+                                <p class="item-intro text-muted">You don't need to step out for this !</p>
+                               
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="10" href="#meme"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/meme.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                    </div>
+                                    </a>  
+                                    <h4>Meme <br> Making</h4>
+                                </div>
+                                
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="11" href="#mannequin"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Mannequin%20.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                    </div>
+                                    </a>  
+                                    <h4>Mannequin Challenge</h4>
+                                </div>
+                                
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="12" href="#epic"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/screen%20shots.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                    </div>
+                                    </a>  
+                                    <h4>Epic <br /> Screenshot</h4>
+                                </div>
+
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="13" href="#video"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/video.jpg"  class="img-responsive" >
+                                        </div>
+                                    </div>
+                                    </a>  
+                                    <h4>Video Rama</h4>
+                                </div>
+                                 
+                                  <div class="col-md-4 col-sm-6 ">
+                                    <a id="14" href="#parody"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/parody%20script.jpg"  class="img-responsive" >
+                                        </div>
+                                    </div>
+                                    </a>  
+                                    <h4>Parody Script Writing</h4>
+                                </div>
+                                
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="15" href="#make"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/make%20a%20word.jpg"  class="img-responsive" >
+                                        </div>
+                                    </div>
+                                    </a>  
+                                    <h4>Make a word</h4>
+                                </div> 
+                               </div>
+                            </div>
+                               
+                               
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Infromals</h2>
+                                <p class="item-intro text-muted">Enough of formal activities.</p>
+                               
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="16" href="#poutpourri"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/pot%20pourri.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                       </div>
+                                    </a>  
+                                    <h4>Pot Pourri</h4>
+                                </div>
+                                
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="17" href="#seconds"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/60%20seconds.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                        </div>
+                                    </a>  
+                                    <h4>60 Seconds to Summary</h4>
+                                </div>
+                                 <div class="col-md-4 col-sm-6 ">
+                                    <a id="18" href="#text"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Text%20a%20phenia.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                        </div>
+                                    </a>  
+                                    <h4>Text-a-Phrenia</h4>
+                                </div>
+                                </div>
+                               
+                               <div>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
+    
+        </div>
+    
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Fine Arts</h2>
+                                <p class="item-intro text-muted">Show your art in you !</p>
+                               
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="19" href="#paint"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/paint%20it%20red.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                      </div>
+                                    </a>  
+                                    <h4>Paint it Red</h4>
+                                </div>
+                                
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="20" href="#mono"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/monostrokes.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                        </div>
+                                    </a>  
+                                    <h4>Mono Strokes</h4>
+                                </div>
+                                
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="21" href="#poster"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/poster%20mking.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                       </div>
+                                    </a>  
+                                    <h4>Poster Making</h4>
+                                </div>
+                                
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="22" href="#digital"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/digital%20arts.jpg"  class="img-responsive" >
+                                        </div>
+                                        </div>
+                                    </a>  
+                                    <h4>Digital Arts</h4>
+                                </div>
+                                 
+                                </div>
+                            </div>
+                               
+                               
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Flagship</h2>
+                                <p class="item-intro text-muted">Time to enjoy !</p>
+                               
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 ">
+                                    <a id="23" href="#drum"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Drum%20Circles.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                        </div>    
+                                    </a>
+                                    <h4>Drum Circles</h4>
+                                </div>
+                                
+                                <div class="col-md-6 col-sm-6 ">
+                                    <a id="24" href="#talent"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Talent%20hunt.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                        </div>    
+                                    </a>
+                                    <h4>Talent hunt</h4>
+                                </div>
+                                 <div class="col-md-6 col-sm-6 ">
+                                    <a id="25" href="#night"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/night%20fiesta.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                        </div>    
+                                    </a>
+                                    <h4>Night Fiesta</h4>
+                                </div>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <a id="26" href="#adventure"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Adventure%20sports.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                        </div>    
+                                    </a>
+                                    <h4>Adventure Sports</h4>
+                                </div>
+                                </div>
+                               
+                               <div>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Portfolio Modal7-->
+      <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Sports</h2>
+                                <p class="item-intro text-muted">Remember playing cricket in our streets and racing with scooters !</p>
+                               
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 ">
+                                    <a id="27" href="#cricket"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/cricket.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                       </div>
+                                    </a>  
+                                    <h4>Gully Cricket</h4>
+                                </div>
+                                
+                                <div class="col-md-6 col-sm-6 ">
+                                    <a id="28" href="#scooter"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/toy%20scooter.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                        </div>
+                                    </a>  
+                                    <h4>Scooter Race</h4>
+                                </div>
+                                
+                                <br>
+                                <br>
+                               
+                    </div>
+                                <div style="display:block;">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+     <!--Portfolio Modal8-->
+      <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Workshops</h2>
+                                <p class="item-intro text-muted">Some amazing workshops lined up for you!</p>
+                               
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="29" href="#photography_w"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/photography.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                    </div>    
+                                        </a>
+                                        <h4>Travel Photography</h4>
+                                </div>
+                                
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="30" href="#graphic_w"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/graphic%20design.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                    </div>  
+                                    </a>
+                                    <h4>Graphic Design</h4>
+                                </div>
+                                 <div class="col-md-4 col-sm-6 ">
+                                    <a id="31" href="#digital_w"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Digital%20marketing.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                    </div>  
+                                    </a>
+                                    <h4>Digital Marketing</h4>
+                                </div>
+                                 <div class="col-md-4 col-sm-6 ">
+                                    <a id="32" href="#film_w"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Film%20Making.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                    </div>  
+                                    </a>
+                                    <h4>Film Making</h4>
+                                </div>
+                                <div class="col-md-4 col-sm-6 ">
+                                    <a id="33" href="#journalism_w"  class="portfolio-link" onClick="reply(this)" >
+                                    <div class="sponsor_container" >
+                                        <div class="image_container"><img src="img/events/Journalism.jpg"  class="img-responsive" height="100%" width="100%">
+                                        </div>
+                                    </div>  
+                                    </a>
+                                    <h4>Journalism</h4>
+                                </div>                           
+                                <br>
+                                <br>
+                               
+                        </div>
+                                <div style="display:block;">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <!-- event sections-->
+                            <div id="thecontroversy" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">The Controversy</h2>
+                                    <h5><q class="events">I don't pretend to know everything, I just only speak on matters I know I'll win</q></h5>
+                                    
+                                    <br>
+                                    <p>A competition where the wittiest tongues compete against each other on the trending issues and battle out their opponents with the power of their words.</p>
+                                    <h4>Format</h4>
+                                    <p>‘The Controversy’ will be a 2 phase competition event comprising Eliminations and Finals. 
+The first round (Eliminations) will be a group-discussion wherein a variety of topics will be given to different lots. Each participant will be given specified time to present his views over the fiery issue. A pre-decided number of participants will qualify to the last round i.e-The Finale. 
+In the last round; the finalists will debate on a current social, political or ethical issue to fire out the rest of them with the power of their words! 
+Exciting hampers, cash prizes and much more await the winners.
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Vocabulary, Fluency and Proficiency of the language</li>
+                                        <li>
+                                        Presentation of views and content of speech 
+                                        </li>
+                                        <li>Their knowledge of the topic </li>
+                                        <li>Acquaintance with the norms of a standard debate</li>
+                                    
+                                    </ul>
+                                    <h4>Rules</h4>
+                                    <ul>
+                                        <li>Participants need to register individually for the competition.</li>
+                                        <li>English will be used for all communication purposes.</li>
+                                        <li>The participant will not be allowed to carry any printed material.</li>
+                                        <li>Exceeding the time limit will impose penalty.</li>
+                                        <li>Order of speaking will be decided by conventional random measures.</li>
+                                        <li>Any correspondence with the judge should be through an OC (Organising Comittee) member.</li>
+                                        <li>The participant should refrain from using abusive content and give an equal opportunity to fellow speakers.</li>
+                                        <li>The OC reserves the right to change or modify any of the rules.</li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                        <div id="spintheyarn" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Spin the yarn</h2>
+                                    <h5><q class="events">An ideal speaker doesn’t require a base to set up a plot. He goes with the flow and yields out an amazing piece of art.</q></h5>
+                                    
+                                    <br>
+                                    <p>If you think that impromptu thoughts can transform a mundane story into an exciting yet fun-filled one, there exists no better alternative for you!
+An event based on the concept of plot building wherein a group of participants develop a story, initiating with a simple base line.
+                                    </p>
+                                    
+                                    <h4>Format</h4>
+                                    <p>‘Spin the Yarn’ will be a 2 phase competition event comprising Eliminations and Finals.  Pre-decided number of participants will qualify for the second round based on their skills. 
+In this competition, a base story line will be given by the moderator/jury member to begin the plot. The members of the team will thereafter continue the plot by adding a line, in accordance with the existing plot setup. The rules remain same for eliminations and the finale. 
+Exciting hampers, cash prizes and much more await the winners.
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Co-ordination between the team members.</li>
+                                        <li>The logic, quality and coherency of the resulting plot.
+                                        </li>
+                                        <li>Proper usage of target language. </li>
+                                        <li>Distinction and relevancy of thoughts with respect to the story-line.</li>
+                                    
+                                    </ul>
+                                    <h4>Rules</h4>
+                                    <ul>
+                                        <li>‘Spin the Yarn’ will be a group competition.</li>
+                                        <li>Minimum members=3 and Maximum members=4</li>
+                                        <li>Participant can use either of the languages- Hindi or English or a combination of both.</li>
+                                        <li>Every participant needs to speak at-least twice.</li>
+                                        <li>The length and elaboration of plot should be duly followed.</li>
+                                        <li>Any correspondence with the judge should be through an OC member.</li>
+                                        <li>The participants should refrain from using abusive content.</li>
+                                        <li>The OC reserves the right to change or modify any of the rules.</li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+     <div id="dramaticreading" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Dramatic Reading</h2>
+                                    <h5><q class="events">To feel most beautifully alive means to be reading something beautiful, ready always to apprehend in the flow of language the sudden flash of poetry</q></h5>
+                                    
+                                    <br>
+                                    <p>For all the readers out there; if you think that reading is just not contemplating the thoughts in your mind, this is the perfect platform for you! Read out the words, read out your mind because “Your style of reading matters the most.”
+                                    </p>
+                                    
+                                    <h4>Format</h4>
+                                    <p>This competition will see the most efficient readers pitting against each other. “Dramatic Reading” will be a two-phase competition- Eliminations and Finals.
+In the first round; the speaker will be supposed to read out any work of his choice- Poem/Story/Novel Chapter/Statistics/ Printed Information. Pre-decided number of participants will qualify for the next round based on the reading skills.
+For the second round, the speaker will be allotted a category and work-piece randomly. It can be any of the above mentioned ones. Top participants will be awarded based on the decision by the jury.
+In both the phases, the participant will have to speak in specified time limit. Exciting hampers, cash prizes and much more await the winners.
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Presentation i.e Oration/Recitation</li>
+                                        <li>Fluency and command over the targeted language
+                                        </li>
+                                        <li>Ability to relate the content with the speech </li>
+                                        <li>Interpretation of the content</li>
+                                    
+                                    </ul>
+                                    <h4>Rules</h4>
+                                    <ul>
+                                        <li>Participants need to register individually for the competition.</li>
+                                        <li>Round-1 can consist of either self-written/published work.</li>
+                                        
+                                        <li>English will be used for all communication purposes.</li>
+                                        <li>Category allotment will be done through random conventional measures.</li>
+                                        <li>Vulgarity and use of abusive content will lead to direct disqualification</li>
+                                       
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                            <div id="jam" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">JAM</h2>
+                                   
+                                    <h5><q class="events">It takes less than a minute to judge how one speaks and how witty he can be.</q></h5>
+                                    <br>
+                                 
+                                    <p>
+                                    Are you a quick-thinker, always thinking about wise cracks and wanting to showcase your humor and speaking ability?Do you think you have what it takes to spea, be funny and impress people? Then this is your chance to be your best at a lightning fast event! 
+                                        
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>An event for the grammar Nazis and those glib of tongue, where you have to speak fluent and grammatically correct English for one minute without any hesitation, repetition or deviation.  
+The participant will be allotted a topic on the spot and he/she will be supposed to speak impromptu.  It will be a single phase competition wherein winners will be selected solely on the basis of their speaking skills.
+Exciting hampers, cash prizes and much more await the winners.
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Fluency and command over the language</li>
+                                        <li> Spontaneity, wit and humor in the content.</li>
+                                        <li>  Knowledge and Interpretation of the topic.</li>
+                                        <li>Other criteria subjected to JAM master’s discretion.</li>
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>Participants need to register individually for the competition.</li>
+                                        <li>English will be used for all communication purposes.</li>
+                                        <li>Category allotment will be done through random conventional measures/ based on JAM master’s decision.</li>
+                                        <li>Jammers should be clear, fluent and simply cannot be monotonous.</li>
+                                        <li>Vulgarity and use of abusive content will lead to direct disqualification.</li>
+                                        <li>Any correspondence with the JAM master should be through an OC member.</li>
+                                        <li>The OC reserves the right to change or modify any of the rules.</li>
+                                        <li>Penalty will be imposed if the time limit is not followed.</li>
+                                        <li>In all the cases the decisions and rules and regulations are subject to JAM master’s frivolity.</li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+    <!--Smart Cracks events-->
+     <div id="throwback" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Throwback to 90's</h2>
+                                   
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    The event focusses on your memories of childhood and knowledge of the 90s. So, have a visit back to your childhood and gift yourself with cash prizes and exciting hampers!
+                                        
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>This will be a two-phase quiz event-Eliminations and Finals. 
+Both the rounds will involve a quizmaster who'll throw a pre-decided number of questions onto the participant. The qualifying participants and winners will be decided on the basis of requisite skills. The genre of questions pertain to everything from the 90s(e.g technology, comics, tv shows, sports).
+Cash prizes and exciting hampers await the winners.
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Knowledge pertaining to the genre.</li>
+                                        <li> Speed and efficiency.</li>
+                                        <li>Abiding by the rules.</li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>The participant can enroll either as a ‘lone-wolf’ or in a group of 2.</li>
+                                        <li>Any communication with the quiz-master will be done through an OC member.</li>
+                                        <li>Use of abusive content and vulgar actions will lead to direct disqualification.</li>
+                                        <li>All the other rules will be disclosed on the spot by the quiz master.</li>
+                                        <li>In any case, the decision of quiz-master will be final and binding for all.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+    <div id="clash" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Clash of the Hero's</h2>
+                                   
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    The event tests your knowledge about the superhero movies and comic characters. So, brace yourself to water out those babbling fiery question! 
+                                        
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>This will be a two-phase event-Eliminations and Finals. 
+Both the rounds will involve quiz-master throwing a pre-decided number of question onto the participants. The qualifying participants and winners will be decided on the basis of requisite skills. The genre of questions in this quiz will be superhero fiction.
+Cash prizes and exciting hampers await the winners.
+
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Knowledge pertaining to the genre</li>
+                                        <li>Speed and efficiency </li>
+                                        <li>Abiding by the rules</li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>The participant can enroll either as a ‘lone-wolf’ or in a group of 2.</li>
+                                        <li>Any communication with the quiz-master will be done through an OC member.</li>
+                                        <li>Use of abusive content and vulgar actions will lead to direct disqualification.</li>
+                                        <li>All the other rules will be disclosed on the spot by the quiz master.</li>
+                                        <li>In any case, the decision of quiz-master will be final and binding for all.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+     <div id="binge" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Binge Watchers</h2>
+                                    <h5><q class="events">If it weren't for electricity we'd all be watching television by candlelight</q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    Consider yourself a self-professed Soap Opera guru? Well, here’s a chance to prove it.
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>This will be a two-phase event-Eliminations and Finals. 
+Both the rounds will involve quiz-master throwing a pre-decided number of question onto the participants. The qualifying participants and winners will be decided on the basis of requisite skills.
+Cash prizes and exciting hampers await the winners.
+
+
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Knowledge pertaining to the genre</li>
+                                        <li>Speed and efficiency </li>
+                                        <li>Abiding by the rules</li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>The participant can enroll either as a ‘lone-wolf’ or in a group of 2.</li>
+                                        <li>Any communication with the quiz-master will be done through an OC member.</li>
+                                        <li>Use of abusive content and vulgar actions will lead to direct disqualification.</li>
+                                        <li>All the other rules will be disclosed on the spot by the quiz master.</li>
+                                        <li>In any case, the decision of quiz-master will be final and binding for all.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+    <div id="mad" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">MAD ads</h2>
+                                    <h5><q class="events">Creative without strategy is called 'art.' Creative with strategy is called 'advertising'. </q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <h4>Format</h4>
+                                    <p>This will be a two-phase event-Eliminations and Finals. 
+First round will involve questions about various advertisements. These may include jingles, taglines,logos and posters. The qualifying participants and winners will be decided on the basis of requisite skills.
+The second round will involve the participants picking up a random object from a pool of objects. They have to device a catchy and unique tagline for the product.
+Cash prizes and exciting hampers await the winners.
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Knowledge pertaining to the genre</li>
+                                        <li>Speed and efficiency </li>
+                                        <li>Abiding by the rules</li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>The participant can enroll either as a ‘lone-wolf’ or in a group of 2.</li>
+                                        <li>Any communication with the quiz-master will be done through an OC member.</li>
+                                        <li>Use of abusive content and vulgar actions will lead to direct disqualification.</li>
+                                        <li>All the other rules will be disclosed on the spot by the quiz master.</li>
+                                        <li>In any case, the decision of quiz-master will be final and binding for all.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    <div id="brain" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Brain Tease</h2>
+                                    <h5><q class="events">Even the hardest puzzles have a solution. </q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <h4>Format</h4>
+                                    <p>In this Competition a set of puzzles and aptitude questions will be given to the participants. They have to apply their cognitive abilities to solve them.
+Cash prizes and exciting hampers await the winners.
+
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Knowledge pertaining to the genre</li>
+                                        <li>Speed and efficiency </li>
+                                        <li>Abiding by the rules</li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>The participant can enroll either as a ‘lone-wolf’ or in a group of 2.</li>
+                                        <li>Any communication with the quiz-master will be done through an OC member.</li>
+                                        <li>Use of abusive content and vulgar actions will lead to direct disqualification.</li>
+                                        <li>All the other rules will be disclosed on the spot by the quiz master.</li>
+                                        <li>In any case, the decision of quiz-master will be final and binding for all.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    <div id="meme" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Meme making</h2>
+                                   
+                                    <h5><q class="events">If you wanna say it, say it with a meme</q></h5>
+                                    <br>
+                                 
+                                    <p>
+                                   Can you easily picturise any comic scene in a short frame? If this is you then here is a stage set up for your talent. Portray the fun in your memes, share them with us and you could get some exciting hampers & much more.
+
+
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>“Meme making” requires the participants to come up with original memes on any topic of their choice in an effective, eye-catching manner. Please note that only pictorial memes will be accepted. If you have a video meme; submit your entry under the ‘Video-Rama’ category. The image should be sent to us only in the jpg or jpeg format.
+
+The top memes will be uploaded on the Carpe Diem'17 official pages and the winners will be rewarded with some exciting merchandises and hampers!
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Idea/Concept/Message.</li>
+                                        <li>Logic and clarity.</li>
+                                        <li>Presentation and overall appeal.</li>
+                                        
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>Submit before: 16th February, 2017 : 12am</li>
+                                        <li>Memes must be original.</li>
+                                        <li>Use clear images.</li>
+                                        <li>Photoshopped or hand drawn images are also accepted.</li>
+                                        <li>The image should  be in jpg or jpeg format.</li>
+                                        <li>Submission should be made via email at carpediem.nirma@gmail.com with the subject "Meme making submission".</li>
+                                        <li>Entry will be rejected if the image file is not accessible due to any reason.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    <div id="mannequin" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Mannequin challenge</h2>
+                                   
+                                    <h5><q class="events">In an age of movement, nothing is more critical than stillness.</q></h5>
+                                    <br>
+                                 
+                                    <p>
+                                    Revolutionize #MannequinChallenge with this online competition and grab the chance to flaunt your creativity with a pinch of fun.
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>#MannequinChallenge is a viral Internet video trend where people remain frozen in action like mannequins while a moving camera films them, usually with the song "Black Beatles" by Rae Sremmurd playing in the background. The video should be sent to us in a MP4 format.
+The top videos will be featured on Carpe Diem'17 official pages & the winners will be awarded with exciting merchandises and hampers!
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Submit before: 16th February, 2017 : 12am</li>
+                                        <li>The bigger the situation, the better it is.</li>
+                                        <li>There should be no movement.</li>
+                                        <li>No cutting away allowed. Make it all in one shot.</li>
+                                        <li>The video should be in a MP4 format.</li>
+                                        <li>The background music should be set to “Black Beatles” by Rae Sremmunda.k.a the Mannequin Challenge anthem.</li>
+                                        <li>Submission should be made via email at carpediem.nirma@gmail.com with the subject "Mannequin challenge submission".</li>
+                                        <li>Bonus points for choosing a pose that’s seemingly impossible to hold for more than one second.</li>
+                                        <li>Entry will be rejected if the video file is not accessible due to any reason.</li>
+                                        
+                                    </ul>
+                                   
+                                </div>
+                            </div>
+    
+    <div id="epic" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Epic Screenshot</h2>
+                                    <h5><q class="events">A phone is complete with a perfect playlist, unbeatable high scores and an epic screenshot </q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    Phone memory occupied with craziest and funky screenshots? IF this is you then here is your chance to win exciting prizes. Be it a personal chat or a spooky random web surfing product. Send us your epic Screenshot!
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>All you need to do is select and compile your 3 best screenshots. They may be edited to hide any personal detail. However the screenshot must be original and no cropping or editing of essential text is allowed. The screenshots must be sent and delivered before the deadline. The image should be sent to us only in the jpg or jpeg format.
+Best images will get uploaded on Carpe Diem'17 official pages & the winners will be rewarded with exciting merchandises and hampers.
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Composition of screenshot</li>
+                                        <li>Creativity in screenshot </li>
+                                        <li>Interesting back story conveyed or portrayed.</li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>Submit before: 16th February, 2017 : 12am</li>
+                                        <li>Two similar entries will lead to direct disqualification.</li>
+                                        <li>Late entries will not be accepted.</li>
+                                        <li>The screenshot submitted must be in full screen mode, without any modification in image, text or otherwise.</li>
+                                        <li>Submission should be made via email at carpediem.nirma@gmail.com with the subject "Epic screenshot submission".</li>
+                                        <li>The judge’s decision regarding validity, originality and evaluation shall remain undisputed.</li>
+                                        <li>An entrant cannot revise his / her entry once it has been made.</li>
+                                        <li>The entry should not be obscene, offensive in any manner</li>
+                                        <li>Entry will be rejected if the image file is not accessible due to any reason.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+    <div id="video" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Video  Rama</h2>
+                                    <h5><q class="events">“We’re in the era of digital video and it’s a mess.</q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    Do you love dubbing and recording hilarious videos? If your performance has the power to entertain the audience, then send us your entry and you could get some exciting hampers and much more.
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>The video should be of minimum 15 seconds duration whereas the max time limit is 3 minutes. Video can be anything right from a dubsmash to a fully edited music video.  The video should be in a MP4 format. You are also allowed to use miscellaneous music/video applications for the same. 
+Best video will get uploaded on Carpe Diem'17 official pages & the winners will be rewarded with exciting merchandises and hampers
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                       <li>Submit before: 16th February, 2017 : 12am</li>
+                                        <li>Overall Performance</li>
+                                        <li>Humor content </li>
+                                        <li>Originality</li>
+                                        <li>Base story </li>
+                                        <li>Creativity</li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>Entries received after the deadline shall not be accepted.</li>
+                                        <li>The video must not exceed the time limit.</li>
+                                        <li>The video should be in a MP4 format.</li>
+                                        <li>Submission should be made via email at carpediem.nirma@gmail.com with the subject "Video rama submission"</li>
+                                        <li>No alcohol, drug consumption should be captured and sent.</li>
+                                        <li>The attire should be decent.</li>
+                                        <li>Dubsmash is allowed however it should not be vulgar or indecent.</li>
+                                       
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+    <div id="parody" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Parody Script Writing</h2>
+                                    <h5><q class="events">One of the most under-rated forms of art is the Art of Transformation. One who
+transforms an existing work-piece to his piece of efforts is a true writer.</q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    For the avid writers who can transform a standard piece of visual literature on a pen-paper. You don’t need a topic to justify your writing skills. You just convert the words you hear into a magnificent piece of written work with grace!
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>“Parody script writing” competition will require the participant to consider an existing movie/film/drama/a similar performance of the type and jotting it down in a word file. This single phase competition expects the participant to upload their CREATION online in the form of a pdf file. The file should comprise of the parody and links and references to the targeted chosen content. Top works will be uploaded on Capre Diem&#39;17 official pages. The winners will also get exciting hampers and much more!
+
+
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>The proficiency and command over the language</li>
+                                        <li>Extent of direct analogical points between the parody and chosen content</li>
+                                        <li>The thoughtfulness and creativity instilled in the transformation</li>
+                                        <li>Way of presentation and coherency of transformation</li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>Submit before: 16th February, 2017 : 12am</li>
+                                        <li>There is no particular word-limit for the same.</li>
+                                        <li>Participants need to register individually for the competition.</li>
+                                        <li>Participant needs to provide relevant citations and references.(e.g wiki
+
+page of the movie)</li>
+                                        <li>English will be used for all purposes.</li>
+                                        <li>Submission(of pdf file) should be made via email at
+carpediem.nirma@gmail.com with the subject &quot;Parody script writing
+submission&quot;.</li>
+                                        <li>Vulgarity and use of abusive content will lead to direct disqualification.</li>
+                                        <li>Participant should judiciously follow the deadlines.</li>
+                                        <li>Participant is solely responsible to make sure that the work reaches the
+concerned in the allotted time frame.</li>
+                                        <li>In case the file is not accessible because of any reason, participation will
+not be considered.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    <div id="make" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Make a Word</h2>
+                                    <h5><q class="events">For using the existing words is too cliché. I need to develop my own dictionary.</q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    Ever thought that Joey’s moo-point made sense? Ever thought that “Bollywoody”
+
+should be legitimate word? Ever thought that “Fashionister” was sophisticated
+
+form of “Hipster”? Then this competition is meant purely for you!
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>“Make a word” requires the participant to CREATE and DEVELOP a word
+
+outside the existing Thesaurus alternatives. The word should have proper
+
+applicability and should make proper sense.
+
+This single phase competition expects the participant to upload their CREATION
+
+online in the form of a pdf file. The file should comprise of the word, its
+
+applicability, the reason of its development, its need for the hour and relevant
+
+examples pertaining to same.
+
+Top works will be uploaded on Capre Diem&#39;17 official pages. The winners will also
+
+get exciting hampers and much more!
+
+
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Logic, Needfulness, Application</li>
+                                        <li>Freshness, distinction and creativity in the thoughts instilled in the
+
+development of the word. </li>
+                                        <li>Its analogy, if any, with the existing vocabulary.</li>
+                                        <li>The extent of meaning and sense that the word possesses.</li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>Submit before: 16th February, 2017 : 12am</li>
+                                        <li>The word limit for the Word file is 125-150 words.</li>
+                                        <li>Penalty will be imposed if the word limit is exceeded.</li>
+                                        <li>Participants need to register individually for the competition.</li>
+                                        <li>English will be used for all purposes.</li>
+                                        <li>Submission(of pdf file) should be made via email at carpediem.nirma@gmail.com with the subject &quot;Make a word submission&quot;.</li>
+                                        <li>Vulgarity and use of abusive content will lead to direct disqualification.</li>
+                                        <li>Participant should judiciously follow the deadlines.</li>
+                                        <li>Participant is solely responsible to make sure that the work reaches the concerned in the allotted time frame.</li>
+                                        <li>In case the file is not accessible because of any reason, participation will
+
+not be considered.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+    
+    <!--Informal events-->
+    <div id="poutpourri" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Poutpourri</h2>
+                                    <h5><q class="events">Playing is the highest form of research</q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    A fun-filled event to give everyone a break from lectures, projects and professors who sing lullabies.
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>It is a three phase event. Participation will be in teams of 2.
+ The first round is the game taboo.
+A card will be given to the participant with a main word and 5 others related to it. One person picks up the card and tries to explain that word to the other person without using the 5 other words. 
+The second round is pictionary.
+A card is given to one member and he/she has to explain to the team mate what the card says by drawing. Sheet and pencil will be provided.
+The third round is dumb charades.
+A word/phrase will be given to one member and he/she has to explain it to the other team member by using actions only.
+
+
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Speed. Which team guesses the maximum number of things in the given time.</li>
+                                        <li>Abiding by the rules. </li>
+                                        <li>Coordination between the members.</li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>For taboo, no actions are allowed and the words in the card must not be spoken.</li>
+                                        <li>For Pictionary, only the medium of drawing must be used. No words or actions are permitted.</li>
+                                        <li>For Dumb Charades, the word/phrase must be explained by actions only.</li>
+                                        <li>All the other rules will be disclosed on the spot by the quiz master.</li>
+                                        <li>All decisions made by the Judges are final.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+    <div id="seconds" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">60 seconds to summary</h2>
+                                    <h5><q class="events">…. Let’s not forget to play</q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                   Are you a serious movie watcher? Can you sumarrise the whole 3 hour plot in few seconds?
+Well, here's is a similar task. Summarise as much movies as you can to win something worthy.
+
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>This is a single phase event with participation in teams of 2.
+Explain as many movies as you can in 60 seconds without saying the name of the actors, directors or any characters from the movie (e.g. Rancho from 3 idiots).Basically, explain the movie by its summary, without mentioning any names of people associated with it.
+
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Number of movies guessed in 60 seconds.
+                                        </li>
+                                        <li>The rules were followed.
+
+                                        </li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>No mention of actors, directors, characters from the movie.</li>
+                                        <li>All decisions made by the Judges are final.</li>
+                                        
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+    <div id="text" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Text-a-phrenia</h2>
+                                    
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                   Do you spend hours on your phone? Do you love chatting?
+Then this is the event for you! See if all that typing can win you a prize!
+
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>This is a single phase event. Participants will be given a paragraph and they have to type it on the handsets provided. Sounds easy, right? Participate and see if you can win.
+Exciting hampers, cash prizes and much more await the winners.
+
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Speed
+                                        </li>
+                                        <li>Accuracy </li>
+                                        <li>Errors</li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>Phone and target text will be provided</li>
+                                        <li>In any discrepancy, the decision of jury member will be final.</li>
+                                        
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+    <!-- Fine arts -->
+            <div id="paint" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Paint it red</h2>
+                                    <h5><q class="events">The rest of the world was Black and White but we were in screaming red.</q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                   The event focuses to recognize the hidden artist in you wherein you will be required to win the heart of the judges by your creativity and bold strokes on the given topic.
+ So grab up your brushes and get ready to splash the colors of your dreams.
+
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>This is a single phase event. Participants will be given a theme and will be required to paint and depict their thoughts on the sheet. This is an on the spot event, conducted in the campus. Sheets and Pencils will be provided.
+Exciting hampers, cash prizes and much more await the winners.
+
+
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Creativity
+                                        </li>
+                                        <li>Uniqueness
+
+                                        </li>
+                                        <li>Finishing</li>
+                                        <li>Overall Impact </li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>Only sheets and pencils will be provided.</li>
+                                        <li>Participants should bring their own colors, paints and brushes.</li>
+                                        <li>Sheets will be provided only once. Participants are requested not to spoil them.</li>
+                                        <li>Use of unfair means or references is prohibited and shall lead to immediate disqualification.</li>
+                                        <li>The decision of the judge shall be final and binding.</li>
+                                        <li>Time Limit: 2 hours. </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+    <div id="mono" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Mono Strokes</h2>
+                                    <h5><q class="events">Being an artist is the same as being a wizard only instead of a wand you use pencil for your magic</q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    Do you sketch random thoughts to help yourself in boredom? If just holding a pencil invokes the zeal of portraying things, then this event is meant just for you. 
+ So grab up your pencils and sketch your paradise.
+
+
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>This is a single phase theme based event. The participants are required to sketch and showcase their thoughts on the sheet. This is an on the spot event, conducted in the campus. Sheets and Pencils will be provided. 
+Exciting hampers, cash prizes and much more await the winners.
+
+
+
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Creativity
+                                        </li>
+                                        <li>Uniqueness
+
+                                        </li>
+                                        <li>Finishing</li>
+                                        <li>Sketching Skills </li>
+                                        <li>Overall Impact </li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>Sheets and pencils will be provided.</li>
+                                        <li>Participants are not allowed to carry references in any form.</li>
+                                        <li>Sheets will be provided only once. Participants will be supposed to utilize them judiciously.</li>
+                                        <li>Use of unfair means or references is prohibited and shall lead to immediate disqualification.</li>
+                                        <li>The decision of the judge shall be final and binding.</li>
+                                        <li>Time Limit: 2 hours. </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+   
+    
+    <div id="poster" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Poster Making</h2>
+                                    <h5><q class="events">… Because creative minds are rarely tidy </q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    For all the creative minds out there, here’s a platform for you to dazzle us. If you think you have got the extra knack to unleash the illusionist within you, then this is a perfect thing or you. Grab the opportunity & your work may get exhibited.
+
+
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>This is a single phase event. Participants have to submit the posters by 16th February, 12P.M. at our desk in the Nirma University campus. Poster can be made on any theme of your choice. 
+The top posters will be kept on a display in the campus. The winner will also get exciting hampers and much more!
+
+
+
+
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Creativity
+                                        </li>
+                                        <li>Uniqueness
+
+                                        </li>
+                                        <li>Theme</li>
+                                        <li>Overall Impact  </li>
+                                        
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>Only one poster can be submitted by a participant.</li>
+                                        <li>The size of poster should be A2.</li>
+                                        <li>Submission of poster should be made at the required venue by the last date. Submission after the last date will not be accepted. </li>
+                                        <li>Submission should be made either in person or via a friend.</li>
+                                        <li>Use of unfair means or references is prohibited and shall lead to immediate disqualification.</li>
+                                        <li>The decision of the judge shall be final and binding. </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                
+    <div id="digital" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Digital Arts</h2>
+                                    <h5><q class="events">Digital painting. Because Visual storytelling of one kind or another has been around since cavemen were drawing on the walls </q></h5>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                     The event judges your expression of real life in the digital world. So if you are a techno savvy person with an artistic soul throbbing inside, here is your stage to showcase your talent.
+Breathe in your cursor and let the mouse stroke your thoughts.
+
+
+
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>
+This is a single phase event. Participants have to submit the graphic design based on the given theme by 14th February. The submission has to be made online in a .psd format.
+The best works will be uploaded on Carpe Diem'17 official pages & might be kept on a display in the capmus. The winner will also get exciting hampers and much more!
+
+
+
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Creativity
+                                        </li>
+                                        <li>Uniqueness
+
+                                        </li>
+                                        <li>Theme</li>
+                                        <li>Overall Impact  </li>
+                                        
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>Only one graphic design can be submitted by a participant.</li>
+                                        <li>The mode of submission of file should be a .psd format.</li>
+                                        <li>Submission after the last date will not be accepted. </li>
+                                        <li>Submission should be made via email at carpediem.nirma@gmail.com with the subject "Digital arts submission".</li>
+                                        <li>Use of unfair means or references is prohibited and shall lead to immediate disqualification.</li>
+                                        <li>The decision of the judge shall be final and binding. </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                
+    <!-- Flagship events-->
+    <div id="drum" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">DRUM CIRCLES </h2>
+                                    
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                     Ever wished to have a rock band? To create rousing environment with your performance! Well, here we present the chance for something familiar. Flaunt your newly acquired drumming skills as you might not get a better chance.
+
+
+
+                                    </p>
+                                    <h4>About the event</h4>
+                                    <p>
+
+This will be a live drumming event wherein more than hundred participants will be playing drums together. An instructor standing in the middle will guide everyone and accordingly the participants will play in a synchronised way.
+
+
+
+                                    </p><center>
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VCKsv-MNaa4" frameborder="0" allowfullscreen></iframe></center>
+                                </div>
+                            </div>
+    
+     <div id="talent" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Talent Hunt </h2>
+                                    
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                     Road to fame isn’t difficult. Everyone has talent. What’s rare is the courage to follow it. Come flaunt your talent and you could be bestowed to be the main attraction of the “Night Fiesta”.
+                                    </p>
+                                    <h4>About the event</h4>
+                                    <p>
+
+The event welcomes you to display your talent. Let it be dance, singing, drama, music or anything related. Let the path be open to talent. Selection and Elimination round would be followed by Auditorium Finale. 
+Top performers would get a chance to perform live in the “Night Fiesta”. Also the winners will get cash prizes, exciting hampers and much more!
+
+                                    </p>
+                                   
+                                </div>
+                            </div>
+    
+    <div id="night" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <center><h4><i>Night Fiesta</i></h4></center>
+                                    <center><h1>Stand Up Comedy with Kenny Sabestian </h1></center>
+                                    
+                                    
+                                    
+                                    <br>
+                                    <center><img class="img-responsive" src="img/events/kenny.jpg"></center>
+                                    <br>
+                                    <h4>About the event</h4>
+                                    <p> Taking the 2 day adventure to its peak, the frolic eve in the 'Night Fiesta' jointly organised by Carpe Diem and Enigma (NIPSA: Nirma Institute of Pharmacy Student's Association) will witness a humorous session full of laughter, by your very own YouTube sensation-Kenny Sebastian!</p>
+                                    <h4 style="display:inline;">Location: </h4>&nbsp;<p style="display:inline;">YMCA grounds,Sarkhej Gandhinagar Road, Ahmedabad, Gujarat 380015</p><br>
+                                    <h4 style="display:inline;">Time: </h4>&nbsp;<p style="display:inline;">7 PM onwards</p>
+                                    <div class="panel pink">
+                                        <button onclick="popup('night-fiesta-with-kenny-sebastian-303421');"><h1>Buy Now!</h1></button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                <div id="adventure" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Adventure Games </h2>
+                                    
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    Every day we take few steps of a journey, the journey we lead ourselves through. All one wants is to make it a daring adventure. So here we are, bringing the best of adventure for the best in you.
+                                    </p>
+                                    <h4>About the event</h4>
+                                    <p> Since adventures are full of breath taking spell-bound surprises, we present to you the adventure zone. On the spot registrations will be followed by manner of declaration of adventure and rules of the event. So stay tuned and register to enjoy adventures.
+Cash prizes, gift hampers & much more await the winners.
+
+</p>
+                                   
+                                </div>
+                            </div>
+          <!--Sports-->
+          <!--Gully cricket-->
+          <div id="cricket" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Gully Cricket</h2>
+                                   
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    The one hour fun, playing in the dust, the nostalgia from your own gully, that’s what gully cricket is all about.
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p>It will be a whole day event wherein the teams of 5 members will play against each other. The games will be played on knockout basis.
+Top 3 teams will be given cash prizes & exciting hampers.
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>Sportsman spirit.</li>
+                                        <li>Fairplay </li>
+                                        <li>Abiding by general rules in the game of cricket.</li>
+                                       
+                                    </ul>
+                                    <h4>Rules and regulation</h4>
+                                    <ul>
+                                        <li>Participants need to register in a team of 5 for the event.</li>
+                                        <li>The OC reserves the right to change or modify any of the rules.</li>
+                                        <li>Participants are prohibited to use or communicate in abusive means.</li>
+                                        <li>In all the cases, the decisions of umpires must be followed.</li>
+                                        <li>Bat, ball & stumps will be provided.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+          <!--Scooter race-->
+          <div id="scooter" class="modal1">
+                                <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Scooter race</h2>
+                                   
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                    Take a ride back to those awesome days and celebrate the legacy of childhood with your salad days companion, your “toy scooter”.
+                                    </p>
+                                    <h4>Format</h4>
+                                    <p> It will be a whole day event wherein the participants will have to compete in a race, riding the toy scooters provided.
+Exciting hampers, cash prizes & much more await the winners.
+
+                                    </p>
+                                    <h4>Judging Criteria</h4>
+                                    <ul>
+                                        <li>The race will be conducted every hour.</li>
+                                        <li>Any damage or defilation caused to scooters will lead to direct disqualification. </li>
+                                        <li>The first one to complete the distance will win the race.</li>
+                                        <li>In case of discrepancy, the decision of the OC will be final & binding.</li>
+                                       
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+    <!-- Workshops -->
+    
+       
+    
+        <div id="photography_w" class="modal1">
+            
+            <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Travel Photography</h2>
+                                    <center><i><q class="events">Travelling- It leaves you speechless then turns you into a storyteller</q></i></center>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                     They say you can never be the same before and after travelling. You learn and gain experiences worth a lifetime. Meet new people, enjoy various cultures and see the wonders of nature as well as mankind!
+How beautiful it is to be able to capture it all through a lens besides that of our eye! A photograph can make you feel all those emotions again with the same power plus some more #Nostalgia. 
+Hail Travel Photography!
+
+
+
+
+                                    </p>
+                                    <h4>About the workshop</h4>
+                                    <p>It’s all about clicking pictures at the right moment, right places and in the right way! It will enhance your skills of Travel Photography. You will have a renewed zeal to travel after this workshop! Basically it will be all about:</p>
+                                    <ul>
+                                        <li>How to plan a photography trip</li>
+                                        <li>Gears for Travel Photography</li>
+                                        <li>Cameras and lenses</li>
+                                        <li>Travel Photography Tips</li>
+                                        <li>Composition Tips</li>
+                                        <li>Interaction with Strangers for Portraits & People Photography</li>
+                                        <li>Travel & Safety Tips</li>
+                                        <li>Various Photography Genre Scenarios & Recipes</li>
+                                        <li>How to make the best out of what you got</li>
+                                        <li>Why gear matters and why it doesn't</li>
+                                        
+                                    </ul>
+                <br>
+                    <h4>Date/Time: <u>17th Feb/6hrs (Nirma University)</u></h4>
+                
+                                    <h4>Who will conduct? </h4>
+                                        
+                                         Neha and Chittaranjan are avid Travelers. They have been to more than 34 countries. Their love for travel photography covers landscape, wildlife and people amongst others. Their work is sold online
+                                        <br>
+                                        <i><span style="color:red;">They have written more than 55 articles on Travel Photography in their popular column "ચાલો ફરવા જઈએ," in the online portal "khabarchhe.com." 
+</span></i>
+                                        
+                                </div>
+                            
+        </div>
+    <div id="graphic_w" class="modal1">
+            
+            <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Graphic Designing</h2>
+                                    
+                                    <br>
+                                    <h4>SESSION 1: </h4>
+                                    <p>
+                                     Creating poster design using Adobe Illustrator.
+Topics: Swachh Bharat /Road Safety and Mobile mania /Road Traffic and safety.
+
+What to do: Simple is the theme, difficult will be to inculcate the creativity. Let’s rack our
+brains together to find a beautiful, innovative solution for the necessary change. Understand
+the problem, Work out an idea, and present it through a poster!
+
+Research: It might be helpful for you if you get accustomed with the theme, what
+progress and solution have already been implemented and what this country needs. We
+recommend a little background knowledge so that your poster is not only creative but
+informative and feasible too.
+
+
+
+
+
+                                    </p>
+                                    <h4>SESSION 2:</h4>
+                                    <p>Creating stereoscopic view (3D view) in Adobe Photoshop.
+Ever wondered why we have two eyes? Isn’t one suffice?
+Each eye sees the object in a different angle. Our brain combines both these images and forms
+one image with a depth, height and width (Hence 3D image). If we had only one eye we would
+have been able to see only a 2D image. This function is called Stereoscopic view.
+ Amusing, yeah? Let’s learn how to create such images using Adobe Photoshop.
+Your body is a wonderland!</p>
+                                       <br> 
+                                   <h4>Date/Time: <u>16th Feb/6hrs (Nirma University)</u></h4>
+                                    <br>
+                                    <h5>Materials required:</h5>
+                                    <ul>
+                                        <li>News Print papers (S1)</li>
+                                        <li>Chart Papers/ white cartridge sheets (S1)</li>
+                                        <li> Sketch-pens and pencils (S1)</li>
+                                        <li> Post-its (S1)</li>
+                                        <li>Self clicked pictures and basic research for chosen Topic (S1)</li>
+                                        <li>Paper Mounted red and blue colored spectacles (Red on Left and Blue on Right).</li>
+                                        <li>Mobile with camera or SLR Camera (both)</li>
+                                        
+                                    </ul>
+                                     <h5>Softwares required:</h5>
+                                    <ul>
+                                        <li>Adobe Photoshop</li>
+                                        <li>Adobe Illustrator</li>
+                                        <li>Microsoft Powerpoint</li>
+                                    </ul>
+                                    <h4>Who will conduct? </h4>
+                                        
+                                        Xplora Design Skool, an ISO certified multimedia & animation vocational educational company.
+                                        <br>
+                                        <i><span style="color:red;">Xplora received ‘Shiksha Bharti Puraskar 2009’ for training to 70000+ students over the last 16+ years, and, ‘Indian Leadership award for Education Excellence’ in 2010.</span></i>
+                                        
+                                </div>
+                            
+        </div>
+        <div id="digital_w" class="modal1">
+            
+            <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Digital Marketing</h2>
+               
+                                    <p>this world is not only crucial but also very enticing. You get to connect to
+
+someone seven seas away. Shouldn’t we exploit? This workshop will be all about
+
+being everywhere, making your product reach nooks and corners and analyzing
+
+your competitors while sitting on your comfy couch.</p>
+                                    
+                <h4>About the workshop</h4>
+                                    <p>The workshop will cover the essentials of Digital Marketing as listed below:</p>
+                                    <ul>
+                                        <li>Introduction to digital marketing</li>
+                                        <li>Digital Marketing Popular Tactics - SEO, SEM, EMAIL, Affiliate, Display and Advertsing</li>
+                                        <li>Search Engine Marketing - SERP Ads - Google Adwords Live Practicals</li>
+                                        <li>Search Engine Marketing - Display  Ads - Google Adwords Live Practicals</li>
+                                        <li>Introduction to Popular SEO Tools</li>
+                                        <li>Social Media Case Study</li>
+                                        <li>Social Media Marketing Intro &amp; Popular Tactics</li>
+                                        <li>Competitive Analysis</li>
+                                        <li>Customer Service Using Social Media</li>
+                                        <li>Online Reputation Management</li>
+                                        <li>Assignments to practice what has been taught</li>
+                                        
+                                    </ul>
+                <br>
+                    <h4>Date/Time: <u>16th Feb/4hrs (Nirma University)</u></h4>
+                
+                                    <h4>Who will conduct? </h4>
+                                        
+                                        Brandveda, Gujarat’s leading Digital Marketing company. The founder, Mr Saurabh Pandey has 12+ years of experience in this field.
+                                        <br>
+                                        <i><span style="color:red;">Since 2013 it has trained
+
+more than 3000+ professionals from over 100+ brands and has organized training
+
+workshops at 45+ colleges.
+</span></i>
+                                </div>
+                            
+        </div>
+    
+     <div id="film_w" class="modal1">
+            
+            <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Film Making</h2>
+                <center><i><q class="events">Time. Free but Priceless!</q></i></center>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                     To shoot a video it takes a lot of pre-preparations. Scene, setting, lights, reflectors; tedious and time consuming! Film making is synonymous to a lengthy take with a lot of money involved.
+Well, No More! We introduce to you a trending technique, Run’n’Gun, which is all about shooting while you are literally moving. It captures the real time emotions, removes the need of high scale editing and requires almost no crew.
+
+
+
+
+                                    </p>
+                                    <h4>About the workshop</h4>
+                                    <p>In this workshop you will learn how to tell stories through a pure visual medium either in form of films or photographs using the Run’n’Gun Technique. </p>
+                
+                                    <h4>Topics to be covered</h4>
+                                    <ul>
+                                        <li>The Elements of Filmmaking</li>
+                                        <li>Discovering your own style</li>
+                                        <li>How to make travelogues</li>
+                                        <li>How to make short films</li>
+                                        <li>How to make wedding films</li>
+                                        <li>Pre-conceptualizing shots</li>
+                                        <li>Finding the right pacing with editing</li>
+                                        <li>Colour Correction</li>
+                                        <li>How to make the best out of what you got</li>
+                                        <li>Why gear matters and why it doesn't</li>
+                                        
+                                    </ul>
+                <br>
+                                <h4>Date/Time: <u>16th Feb/6hrs (Nirma University)</u></h4>
+                                    <h4>Who will conduct? </h4>
+                                        
+                                        The Royal Affair (Aditya Sharma & Chandni Dua)
+                                        <br>
+                                        <i><span style="color:red;">Two times winner of Indian Film Project (2013 & 2015).</span></i>
+                                        
+                                </div>
+                            
+        </div>
+    <div id="journalism_w" class="modal1">
+            
+            <div class="modal1-content">
+                                <span class="close1">&times;</span>
+                                    <h2 class="events">Journalism</h2>
+                                    <center><i><q class="events">If your aim is to change the world, Journalism is a more immediate short-term weapon!
+                                        </q></i></center>
+                                    
+                                    
+                                    <br>
+                                 
+                                    <p>
+                                     It takes courage to stick with the unpopular, print the unprinted and scrap off the flatteries. Journalism is all about that. It asks for skills with which you can catch the ears of mass, open their eyes through a varying perception and force open their mouths when injustice is around.
+Strength of Journalism: The less you know, the more you believe!
+
+
+
+                                    </p>
+                                    <h4>About the workshop</h4>
+                                    <p> This workshop will be a 6 hour session covering Print media, Editing and Photojournalism. The following will be the flow of workshop:
+<dl>
+<dt>Print media:</dt> <dd>In this session reporting for various beats, difference between reporting for newspaper and magazine will be discussed along with bits of page making for newspapers and internet journalism.</dd>
+<dt>Editing:</dt> 
+    <dd>This session will teach hoe to cut a copy and edit different media.</dd>
+
+<dt>Photojournalism:</dt><dd>In this session importance of knowing the skills, features of camera and the likes will be focussed upon.</dd> 
+                </dl>
+                </p>
+                
+                                    <h4>Date/Time: <u>17th Feb/6 hours (Nirma University)</u></h4>
+                                    <br />
+                                    <h4>Who will conduct? </h4>
+                                        
+                                        1) Yesha Bhatt 
+                                        <br>
+                                        <i><span style="color:red;">Correspondent at TOI. She also worked at Zydus Cadilla & co-authored a book for the Gujarat government</span></i>
+                                        <br />
+                                        2) Kinjal Shah Desai
+                                        <br>
+                                        <i><span style="color:red;"> Femina (Gujarat) editor (also worked for TOI and DNA)</span></i>
+                                        <br />
+                                         1) Aneri Nihlani
+                                        <br>
+                                        <i><span style="color:red;">a freelancer & one of the few photojournalist of Ahmedabad (also worked with TOI and DNA)</span></i>
+    </div>             
+        </div>
+    
+    <div id="register1" class="modal1">
+            
+            <div class="modal1-content" style="margin-top:15%;">
+                <div class="container">                
+                    <div class="row">
+                    <span class="close1">&times;</span></div>
+        
+            <div class="row">
+                <div class="panel pink col-md-6">
+                    <button onclick="popup('smart-cracks-242434');"><h1>Offline events</h1></button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
+                </div>
+                <div class="panel pink col-md-6">
+                    <button onclick="window.open('https://goo.gl/forms/ehYrIJdVHJeijj5P2'); return false;" ><h1>Online events!</h1></button>
+                </div>
+                <br>
+            </div>
+        </div>  
+                                </div>
+                            
+        </div>
+
+    
+    
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>    
+
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script>
+    
+   
+    function reply(obj){
+        
+       var clickedID=Number(obj.id);
+       console.info("The id is "+clickedID +typeof(clickedID));
+        
+        switch(clickedID){
+                
+        case 1: console.info("In switch statement 1");
+            var modal =                                             document.getElementById('thecontroversy');
+                
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+              
+                break;
+            case 2:
+                 var modal =                                             document.getElementById('spintheyarn');
+                
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+              
+                break;
+            case 3:
+                var modal =                                             document.getElementById('dramaticreading');
+                
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+              
+                break;
+            
+        case 4: var modal = document.getElementById('jam');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+                
+        case 5: var modal = document.getElementById('throwback');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+            
+        case 6: var modal = document.getElementById('clash');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 7: var modal = document.getElementById('binge');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+         case 8: var modal = document.getElementById('mad');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 9: var modal = document.getElementById('brain');
+                
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 10: var modal = document.getElementById('meme');
+               
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 11: var modal = document.getElementById('mannequin');
+                
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 12: var modal = document.getElementById('epic');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 13: var modal = document.getElementById('video');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 14: var modal = document.getElementById('parody');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 15: var modal = document.getElementById('make');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        
+        case 16: var modal = document.getElementById('poutpourri');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 17: var modal = document.getElementById('seconds');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 18: var modal = document.getElementById('text');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 19: var modal = document.getElementById('paint');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 20: var modal = document.getElementById('mono');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 21: var modal = document.getElementById('poster');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 22: var modal = document.getElementById('digital');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 23: var modal = document.getElementById('drum');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 24: var modal = document.getElementById('talent');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 25: var modal = document.getElementById('night');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 26: var modal = document.getElementById('adventure');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 27: var modal = document.getElementById('cricket');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 28: var modal = document.getElementById('scooter');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span = document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 29: var modal =                             document.getElementById('photography_w');        
+                modal.style.display = "block";
+                 var span =document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 30: var modal = document.getElementById('graphic_w');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span =document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;        
+        case 31: var modal = document.getElementById('digital_w');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span =document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 32: var modal = document.getElementById('film_w');
+                console.info("In switch statement 4");
+                modal.style.display = "block";
+                 var span =document.getElementsByClassName("close1")[clickedID-1];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;
+        case 33:                                                     var modal=document.getElementById('journalism_w');
+               
+                modal.style.display = "block";
+                 var span =document.getElementsByClassName("close1")[clickedID-1];
+                console.log(clickedID);
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break;  
+        case 34:var modal=document.getElementById('register1');
+               console.log("inside 34");
+                modal.style.display = "block";
+                 var span =document.getElementsByClassName("close1")[clickedID-1];
+                console.log(clickedID);
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }    
+                break; 
+            
+        }
+         if(event.target==modal){
+                    modal.style.display = "none";
+                }
+    }
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90937705-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<html>
+
+    <body>
+    
+    <h2 id="myID"></h2>
+        <input type="submit" onclick="my()">
+        <script src="countup.js"></script>
+        <script>
+            function my(){
+            var options = {
+  useEasing : true, 
+  useGrouping : true, 
+  separator : ',', 
+  decimal : '.', 
+  prefix : '', 
+  suffix : '+' 
+};
+var demo = new CountUp("myID", 0, 32, 0, 2.5, options);
+demo.start();
+}
+        </script>
+    </body>
+
+</html>
